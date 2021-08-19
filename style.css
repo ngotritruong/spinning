@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 111, 177);
+
+}
+h1{
+    text-align: center;
+}
+.spin{
+    width:310px;
+    height: 400px;
+    overflow: hidden;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.circle{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 90px;    
+}
+.imgspin{
+    width: 100%;
+    height: 100%;
+}
